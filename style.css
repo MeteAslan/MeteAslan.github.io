@@ -1,0 +1,237 @@
+body {
+  overflow-x: hidden;
+  margin: 0%;
+  background-color: azure;
+}
+
+.navbar-brand img {
+  bottom: 30px;
+  position: relative;
+  width: 170px;
+}
+
+.fas {
+  color: #f8991ce7;
+}
+
+.fas:hover {
+  color: rgb(245, 182, 65);
+}
+
+#container {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+#card-list {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 18rem;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.card > img {
+  margin: 5px;
+  align-self: center;
+  width: 200px;
+  height: 200px;
+}
+
+.navbar,
+navbar-default {
+  width: 100%;
+  height: 120px;
+  background-color: black;
+  position: relative;
+}
+
+.nav,
+.navbar-nav {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+}
+
+#shopbox-btn {
+  margin-bottom: 60px;
+  margin-right: 10px;
+}
+
+#item-counter {
+  display: none;
+  font-size: 12px;
+  background: #157ceb;
+  color: #fff;
+  padding: 3px 5px;
+  vertical-align: top;
+  margin-top: 5px;
+  margin-left: -15px;
+}
+
+.badge {
+  padding-left: 9px;
+  padding-right: 9px;
+  border-radius: 9px;
+}
+
+/*Side Bar Css*/
+.sidebar {
+  width: 20rem;
+  height: 100%;
+  background: rgb(1, 1, 1);
+  flex-direction: column;
+  position: fixed;
+  font-family: "Akaya Telivigala";
+  font-size: 2rem;
+  color: black;
+  right: 0;
+  top: 0;
+  transition: margin 0.4s linear;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.closed {
+  margin-right: -20rem;
+}
+
+.close {
+  color: whitesmoke !important;
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  font-size: 2rem;
+  transition: opacity 0.3s ease-out;
+  opacity: 0.5;
+}
+
+.close:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+
+#shoppingCartAlert{
+  position: relative;
+  text-align: center;
+  top: 50%;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*SideBar-Items*/
+#sidebar-items{
+  margin-top: 50px;
+}
+
+/*Side Cards*/
+.card-block {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  font-size: 0.5em;
+  position: relative;
+  margin: 0;
+  padding: 1em;
+  border: none;
+  border-top: 1px solid rgba(34, 36, 38, .1);
+  box-shadow: none;
+  
+}
+
+.side-card {
+  width: 92%;
+  font-size: 0.4em;
+  padding: 5;
+  border: none;
+  border-radius: .28571429rem;
+  box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+  top: 20px;
+  margin-top:20px;
+  bottom: 10px;
+}
+
+.amountControl{
+  vertical-align: middle;
+  padding: 5px;
+  margin-top: 10px;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.fa-plus-circle:hover , .fa-minus-circle:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.numberCircle {
+  border-radius: 50%;
+  padding: 5px;
+  background: #fff;
+  border: 2px solid #666;
+  color: #666;
+  text-align: center;
+  font: 32px Arial, sans-serif;
+}
+
+/*Total Amount Indicator css*/
+#totalPrice{
+  width: 100%;
+  border: 2px solid white;
+  border-left:none;
+  border-right:none;
+  flex-direction:row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+#totalPriceTitle{
+  margin-top: auto;
+  color:white;
+  margin-left:1rem
+}
+
+#amountToBePaid{
+  margin-top: auto;
+   color:white;
+ }
+
+@media screen and (max-width: 768px) {
+  #card-list {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 80%;
+  }
+
+  .card > img {
+   width: 80%;
+   height: 25%;
+  }
+
+  .sidebar {
+    width: 15rem;
+  }
+  
+  .side-card {
+    width: 92%;
+    height: 50%;
+  }
+ 
+}

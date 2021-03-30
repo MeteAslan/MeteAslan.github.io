@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    
+    <!-- Link Css-->
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Shopping Cart</title>
+</head>
+
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#"
+            ><img src="img/navbar-logo.png" alt=""></a>
+        </div>
+
+        <ul class="nav navbar-nav">
+          
+          <li>
+            <a href="#"
+              ><i id="shopbox-btn" class="fas fa-shopping-basket fa-2x mb-10"></i
+              ><span class="badge" id="item-counter">0</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="container">
+      <div  id="card-list"></div>
+      
+      <div class="sidebar closed">
+        <div class="close" id="close">&times;</div>
+        
+        <h5 id="shoppingCartAlert" class="d-block">Shopping Cart Is Empty</h5>
+        
+        <div id="sidebar-items"></div>
+        
+        <div id="totalPrice" class="d-none mt-5 mb-2">
+          <h6 id="totalPriceTitle" class="p-2">TOTAL</h5>
+          <h5 id="amountToBePaid" class="p-2"></h4>
+          <button id="payButton" type="button" class="btn btn-secondary rounded-0 p-2">Pay Now</button>
+        </div>
+      
+      </div>
+     
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

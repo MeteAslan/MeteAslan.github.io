@@ -1,0 +1,73 @@
+[
+  {
+    "productName": "T-Shirt",
+    "productImage": "1.jpg",
+    "productPrice": "$15.0"
+  },
+
+  {
+    "productName": "Treadmill",
+    "productImage": "2.jpg",
+    "productPrice": "$349.90"
+  },
+
+  {
+    "productName": "Bench",
+    "productImage": "3.jpg",
+    "productPrice": "$90.0"
+  },
+
+  {
+    "productName": "Jump Rope",
+    "productImage": "4.jpg",
+    "productPrice": "$15.0"
+  },
+
+  {
+    "productName": "Yoga Sport Mat",
+    "productImage": "5.jpg",
+    "productPrice": "$17.70"
+  },
+
+  {
+    "productName": "Bike Cardio",
+    "productImage": "6.jpg",
+    "productPrice": "$250.0"
+  },
+
+  {
+    "productName": "Dumbbell 30Kg",
+    "productImage": "7.jpg",
+    "productPrice": "$50.75"
+  },
+
+  {
+    "productName": "Resistance Band",
+    "productImage": "8.jpg",
+    "productPrice": "$9.95"
+  },
+
+  {
+    "productName": "Fitness Multi Station",
+    "productImage": "9.jpg",
+    "productPrice": "$1570.0"
+  },
+
+  {
+    "productName": "Punching Bag",
+    "productImage": "10.jpg",
+    "productPrice": "$62.70"
+  },
+
+  {
+    "productName": "Medicine Ball 9Kg",
+    "productImage": "11.jpg",
+    "productPrice": "$43.50"
+  },
+
+  {
+    "productName": "Pull Up Bar",
+    "productImage": "12.jpg",
+    "productPrice": "$45.50"
+  }
+]
